@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby 
+
+require './lib/weather_now'
+
+WeatherNow::CLI.new.call

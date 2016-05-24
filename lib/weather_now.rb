@@ -1,5 +1,2 @@
-require "weather_now/version"
-
-module WeatherNow
-  # Your code goes here...
-end
+require_relative "./weather_now/version"
+require_relative './weather_now/cli'
